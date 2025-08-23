@@ -1,7 +1,7 @@
 # config.py
 import os
 from typing import Dict, Any, Optional
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
